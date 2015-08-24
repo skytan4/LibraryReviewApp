@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EditBookViewController.h
 //  LibraryReviewApp
 //
 //  Created by Skyler Tanner on 8/24/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EditBookViewController : UIViewController
 
 @end
-

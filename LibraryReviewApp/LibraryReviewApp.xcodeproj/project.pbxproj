@@ -10,11 +10,15 @@
 		24AC7E7E1B8B86D100A74CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7E7D1B8B86D100A74CDF /* main.m */; };
 		24AC7E811B8B86D100A74CDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7E801B8B86D100A74CDF /* AppDelegate.m */; };
 		24AC7E841B8B86D100A74CDF /* LibraryReviewApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7E821B8B86D100A74CDF /* LibraryReviewApp.xcdatamodeld */; };
-		24AC7E871B8B86D100A74CDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7E861B8B86D100A74CDF /* ViewController.m */; };
+		24AC7E871B8B86D100A74CDF /* AllBooksListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7E861B8B86D100A74CDF /* AllBooksListViewController.m */; };
 		24AC7E8A1B8B86D100A74CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AC7E881B8B86D100A74CDF /* Main.storyboard */; };
 		24AC7E8C1B8B86D100A74CDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24AC7E8B1B8B86D100A74CDF /* Images.xcassets */; };
 		24AC7E8F1B8B86D100A74CDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24AC7E8D1B8B86D100A74CDF /* LaunchScreen.xib */; };
 		24AC7E9B1B8B86D100A74CDF /* LibraryReviewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7E9A1B8B86D100A74CDF /* LibraryReviewAppTests.m */; };
+		24AC7EA61B8B88B900A74CDF /* BookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7EA51B8B88B900A74CDF /* BookDetailViewController.m */; };
+		24AC7EA91B8B8B3E00A74CDF /* BookSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7EA81B8B8B3E00A74CDF /* BookSwitchTableViewCell.m */; };
+		24AC7EAC1B8B8D0F00A74CDF /* EditBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7EAB1B8B8D0F00A74CDF /* EditBookViewController.m */; };
+		24AC7EAF1B8B8D8F00A74CDF /* AllBooksTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AC7EAE1B8B8D8F00A74CDF /* AllBooksTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +38,22 @@
 		24AC7E7F1B8B86D100A74CDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		24AC7E801B8B86D100A74CDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		24AC7E831B8B86D100A74CDF /* LibraryReviewApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LibraryReviewApp.xcdatamodel; sourceTree = "<group>"; };
-		24AC7E851B8B86D100A74CDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		24AC7E861B8B86D100A74CDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24AC7E851B8B86D100A74CDF /* AllBooksListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllBooksListViewController.h; sourceTree = "<group>"; };
+		24AC7E861B8B86D100A74CDF /* AllBooksListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllBooksListViewController.m; sourceTree = "<group>"; };
 		24AC7E891B8B86D100A74CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24AC7E8B1B8B86D100A74CDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		24AC7E8E1B8B86D100A74CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		24AC7E941B8B86D100A74CDF /* LibraryReviewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibraryReviewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AC7E991B8B86D100A74CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24AC7E9A1B8B86D100A74CDF /* LibraryReviewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryReviewAppTests.m; sourceTree = "<group>"; };
+		24AC7EA41B8B88B900A74CDF /* BookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailViewController.h; sourceTree = "<group>"; };
+		24AC7EA51B8B88B900A74CDF /* BookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailViewController.m; sourceTree = "<group>"; };
+		24AC7EA71B8B8B3E00A74CDF /* BookSwitchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookSwitchTableViewCell.h; sourceTree = "<group>"; };
+		24AC7EA81B8B8B3E00A74CDF /* BookSwitchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookSwitchTableViewCell.m; sourceTree = "<group>"; };
+		24AC7EAA1B8B8D0F00A74CDF /* EditBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBookViewController.h; sourceTree = "<group>"; };
+		24AC7EAB1B8B8D0F00A74CDF /* EditBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBookViewController.m; sourceTree = "<group>"; };
+		24AC7EAD1B8B8D8F00A74CDF /* AllBooksTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllBooksTableViewDataSource.h; sourceTree = "<group>"; };
+		24AC7EAE1B8B8D8F00A74CDF /* AllBooksTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllBooksTableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +95,19 @@
 		24AC7E7A1B8B86D100A74CDF /* LibraryReviewApp */ = {
 			isa = PBXGroup;
 			children = (
+				24AC7E881B8B86D100A74CDF /* Main.storyboard */,
+				24AC7EAA1B8B8D0F00A74CDF /* EditBookViewController.h */,
+				24AC7EAB1B8B8D0F00A74CDF /* EditBookViewController.m */,
+				24AC7EAD1B8B8D8F00A74CDF /* AllBooksTableViewDataSource.h */,
+				24AC7EAE1B8B8D8F00A74CDF /* AllBooksTableViewDataSource.m */,
 				24AC7E7F1B8B86D100A74CDF /* AppDelegate.h */,
 				24AC7E801B8B86D100A74CDF /* AppDelegate.m */,
-				24AC7E851B8B86D100A74CDF /* ViewController.h */,
-				24AC7E861B8B86D100A74CDF /* ViewController.m */,
-				24AC7E881B8B86D100A74CDF /* Main.storyboard */,
+				24AC7E851B8B86D100A74CDF /* AllBooksListViewController.h */,
+				24AC7E861B8B86D100A74CDF /* AllBooksListViewController.m */,
+				24AC7EA41B8B88B900A74CDF /* BookDetailViewController.h */,
+				24AC7EA51B8B88B900A74CDF /* BookDetailViewController.m */,
+				24AC7EA71B8B8B3E00A74CDF /* BookSwitchTableViewCell.h */,
+				24AC7EA81B8B8B3E00A74CDF /* BookSwitchTableViewCell.m */,
 				24AC7E8B1B8B86D100A74CDF /* Images.xcassets */,
 				24AC7E8D1B8B86D100A74CDF /* LaunchScreen.xib */,
 				24AC7E821B8B86D100A74CDF /* LibraryReviewApp.xcdatamodeld */,
@@ -223,9 +243,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				24AC7E811B8B86D100A74CDF /* AppDelegate.m in Sources */,
+				24AC7EA61B8B88B900A74CDF /* BookDetailViewController.m in Sources */,
 				24AC7E841B8B86D100A74CDF /* LibraryReviewApp.xcdatamodeld in Sources */,
-				24AC7E871B8B86D100A74CDF /* ViewController.m in Sources */,
+				24AC7E871B8B86D100A74CDF /* AllBooksListViewController.m in Sources */,
+				24AC7EA91B8B8B3E00A74CDF /* BookSwitchTableViewCell.m in Sources */,
+				24AC7EAF1B8B8D8F00A74CDF /* AllBooksTableViewDataSource.m in Sources */,
 				24AC7E7E1B8B86D100A74CDF /* main.m in Sources */,
+				24AC7EAC1B8B8D0F00A74CDF /* EditBookViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
